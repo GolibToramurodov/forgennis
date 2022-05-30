@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.father{
+    background-image: url(bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+}
+nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 600px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 50px;
+}
+nav p{
+    float: left;
+    padding: 20px;
+    color: aqua;
+    font-family: 'Righteous',cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.10s;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #f7c08a;
+}
+.landing{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+#blog{
+    color: aqua;
+}
+#landing{
+    color: #fff;
+}
+.addition p{
+    color: #fff;
+}
+.addition{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.read{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-size: 17px;
+    background-color: #fff;
+    color: #000;
+    padding: 13px 0px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    transition: ease-in all 0.5s;
+}
+.read a{
+    text-decoration: none;
+}
+.read:hover{
+    color: #f7c08a;
+    border-radius: 25px;
+    background-color: aqua;
+}
+#ourblogs{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: #3e3e3e;
+    line-height: 57px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#ourblogsbottom{
+    text-align: center;
+    color: #555;
+}
+#img1{
+    padding-bottom: 40px;
+    font-size: 26px;
+    line-height: 40px;
+    color: #333334;
+    font-family: 'Righteous',cursive;
+}
+#long{
+    padding-bottom: 50px;
+    color: #3c3c3c;
+}
+.forflex1{
+    margin-top: 40px;
+    margin-bottom:70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.img1{
+    padding: 30px;
+    border: #fff;
+    box-shadow: 4px 4px 4px rgb(224, 221, 221);
+}
+#opacity1img{
+    position: absolute;
+    left: 69px;
+    width: 1210px;
+}
+.opacityline{
+    position: relative;
+    top: 260px;
+    left: 100px;
+}
+.opacityline h3{
+    font-family: 'Righteous',cursive;
+    color: #fff;
+    font-size: 26px;
+}
+.opacityline p{
+    margin-top: 60px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300px;
+}
+.like{
+    position: relative;
+    bottom: -6px;
+    box-sizing: border-box;
+    height: 30px;
+    border: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#like2{
+    padding-right: 10px;
+}
+.ab{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#comment2{
+    padding-right: 10px;
+}
+#postby2{
+    position: absolute;
+    left: 80px;
+}
+.forflex2{
+    position: absolute;
+    top: 2157px;
+    left: 69px;
+}
+#chadmontano{
+    padding-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 14px;
+    font-family: 'Righteous',cursive;
+}
+.fruit1{
+    height: 610px;
+    border: hidden;
+    box-shadow: 4px 4px 4px rgb(223, 221, 221);
+}
+#fruit1i{
+    color: black;
+    position: relative;
+    left: 20px;
+}
+.chadmontano{
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    padding-right: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+#postby3{
+    padding-top: 7px;
+    cursor: pointer;
+}
+i:focus{
+    background-color: #000;
+}
+.forflex2{
+    display: flex;
+    justify-content: space-around;
+}
+.fruit2{
+    margin-left: 75px;
+}
+#ipsum{
+    margin-top: 23px;
+    position: relative;
+    left: 20px;
+}
+.fruit3{
+    margin: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+#img5{
+    position: absolute;
+    top: 2827px;
+    left: 75px;
+}
+#h3{
+    position: relative;
+    top: 1000px;
+    font-size: 20px;
+}
+.fruit3 .ourfood p{
+    margin-top: 50px;
+}
+.ourfood{
+    padding: 30px;
+    position: relative;
+    left: 300px;
+}
+.postby4{
+    position: relative;
+    top: 1050px;
+    display: flex;
+    justify-content: space-around;
+}
+.cometa{
+    display: flex;
+    justify-content: space-around;
+}
+.fruit3{
+    border: hidden;
+    box-shadow: 4px 4px 4px rgb(255, 255, 254);
+}
+#h2{
+    font-size: 50px;
+    color: #3e3e3e;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: 'Righteous',cursive;
+}
+footer{
+    position: relative;
+    top: 1020px;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer p{
+    padding: 30px;
+    font-size: 17px;
+    color: #333;
+}
+form{
+    margin-left: 200px;
+    width: 950px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px black solid;
+    display: grid;
+    grid-gap: 20px;
+}
+input{
+    font-size: 20px;
+    border: #000;
+    padding: 8px;
+}
+#send{
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 40px;
+    top:  310px;
+    left: 935px;
+}
+button{
+    font-size: 26px;
+    width: 200px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    transition: 0.75s;
+}
+button:hover{
+    border-radius: 30px;
+    background-color: aqua;
+}
+button:focus{
+    color: red;
+}
+.finisher{
+    margin-top: 1100px;
+    text-align: center;
+}
+
+#color{
+    color: #046c58; 
+}
+#color2{
+    margin-top: 13px;
+    color: #222;
+}
+.finisher #ins{
+    left: 550px;
+    margin: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.finisher #face{
+    left: 650px;
+    margin: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.finisher #twit{
+    left: 750px;
+    margin: 10px;
+    position: absolute;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.finisher h1{
+    position: absolute;
+    margin-top: 80px;
+    right: 0;
+    color: #046c58;
+}
+input:focus{
+    border: none;
+}
